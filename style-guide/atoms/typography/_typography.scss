@@ -1,0 +1,53 @@
+h1 {
+  font-size: 3em;
+  color: rgb(66, 58, 51);
+  margin: {
+    top: 0.3em;
+    bottom: 0.3em;
+  }
+}
+
+h2 {
+  font-size: 2.5em;
+  color: rgb(154, 153, 148);
+  margin: {
+    top: 0.3em;
+    bottom: 0.3em;
+  }
+}
+
+h3 {
+  font-size: 1.8em;
+  color: rgb(4, 177, 216);
+  margin: {
+    top: 0.3em;
+    bottom: 0.3em;
+  }
+}
+
+h4 {
+  font-size: 1.5em;
+  color: rgb(154, 153, 148);
+  margin: {
+    top: 0.3em;
+    bottom: 0.3em;
+  }
+}
+
+p, span {
+  font-size: 1.5em;
+  color: rgb(66, 58, 51);
+  margin: {
+    top: 0.3em;
+    bottom: 0.3em;
+  }
+}
+
+b, strong {
+  font-weight: 600;
+  color: #333;
+}
+
+.brand-heading {
+  color: $brand-text;
+}
