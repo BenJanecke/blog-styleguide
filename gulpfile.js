@@ -6,6 +6,7 @@ var fs = require('fs')
   , sass = require('gulp-sass')
   , del = require('del')
   , serve = require('gulp-serve')
+  , watch = require('gulp-watch')
   , matter = [ 'Atoms', 'Molecules', 'Organisms', 'Templates', 'Pages' ];
 
 matter.forEach(function (typeOfMatter) {
@@ -59,6 +60,12 @@ gulp.task('collide', [
   'build-styles',
   'cleanup'
 ], function () {
+});
+
+gulp.task('collide-forever', function () {
+  watch('style-guide/**/**/**/*', function () {
+    gulp.start('collide');
+  });
 });
 
 gulp.task('serve', serve('build'));

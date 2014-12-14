@@ -1,0 +1,15 @@
+.article-header {
+  display: block;
+  width: 100%;
+  float: left;
+  padding: 1em;
+}
+
+.article-header h1 {
+  color: $brand-text;
+  margin-bottom: 0;
+}
+
+.article-header h4 {
+  margin-bottom: 0.5em;
+}
