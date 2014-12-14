@@ -1,0 +1,12 @@
+.article-blockquote {
+  padding: 1em;
+  color: $primary-text;
+  border-left: 0.2em solid $brand-primary;
+  background-color: $brand-secondary;
+  font-size: 1.4em;
+}
+
+.article-blockquote footer {
+  color: $tertiary-text;
+  padding-top: 0.3em;
+}
