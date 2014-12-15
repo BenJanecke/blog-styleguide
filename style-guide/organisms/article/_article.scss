@@ -1,0 +1,8 @@
+@import '../../mixins';
+
+.article {
+  display: block;
+  float: left;
+  @include clearfix;
+  width: 100%;
+}
