@@ -65,6 +65,7 @@ gulp.task('collide', [
 });
 
 gulp.task('collide-forever', function () {
+  gulp.start('collide');
   watch('style-guide/**/**/**/*', function () {
     gulp.start('collide');
   });
