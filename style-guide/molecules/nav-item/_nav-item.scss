@@ -1,0 +1,13 @@
+.nav-item {
+  float: left;
+  margin: 0.8em;
+  a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: $brand-text;
+    &:hover {
+      color: $primary-text;
+    }
+  }
+}
+
