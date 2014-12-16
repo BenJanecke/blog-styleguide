@@ -6,15 +6,28 @@
     display: block;
     float: left;
     color: $brand-text;
+    font-size: 2em;
+    @media (min-width: 479px) {
+      font-size: 3em;
+    }
   }
   h4 {
     display: block;
     float: left;
     padding: {
-      top:1em;
-      bottom:1em;
+      top:0.6em;
+      bottom:0.2em;
       left:0.2em;
-      right:1em;
+    }
+    font-size: 1.1em;
+    @media (min-width: 479px) {
+      font-size: 1.5em;
+      padding: {
+        top:1em;
+        bottom:1em;
+        left:0.2em;
+        right:1em;
+      }
     }
     color: $brand-tertiary;
   }
