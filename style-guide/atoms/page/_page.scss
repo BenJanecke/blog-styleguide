@@ -1,10 +1,8 @@
 @import '../../mixins';
 
 .page {
-  margin: auto;
   display: block;
-  @media (min-width: 824px) {
-    width: 824px;
-  }
   @include clearfix;
+  background-color: $brand-secondary;
+  height: 100%;
 }

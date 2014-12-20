@@ -4,3 +4,7 @@
 @import 'organisms/organisms';
 @import 'pages/pages';
 @import 'templates/templates';
+
+html, body {
+  height: 100%;
+}
