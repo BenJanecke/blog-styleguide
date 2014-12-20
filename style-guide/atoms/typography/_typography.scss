@@ -1,6 +1,6 @@
 h1 {
   font-size: 3em;
-  color: rgb(66, 58, 51);
+  color: $primary-text;
   margin: {
     top: 0.3em;
     bottom: 0.3em;
@@ -9,7 +9,7 @@ h1 {
 
 h2 {
   font-size: 2.5em;
-  color: rgb(154, 153, 148);
+  color: $secondary-text;
   margin: {
     top: 0.3em;
     bottom: 0.3em;
@@ -18,7 +18,7 @@ h2 {
 
 h3 {
   font-size: 1.8em;
-  color: rgb(4, 177, 216);
+  color: $tertiary-text;
   margin: {
     top: 0.3em;
     bottom: 0.3em;
@@ -27,7 +27,7 @@ h3 {
 
 h4 {
   font-size: 1.5em;
-  color: rgb(154, 153, 148);
+  color: $secondary-text;
   margin: {
     top: 0.3em;
     bottom: 0.3em;
@@ -36,7 +36,7 @@ h4 {
 
 p, span {
   font-size: 1.5em;
-  color: rgb(66, 58, 51);
+  color: $primary-text;
   margin: {
     top: 0.3em;
     bottom: 0.3em;
@@ -50,4 +50,11 @@ b, strong {
 
 .brand-heading {
   color: $brand-text;
+}
+
+a {
+  color: $brand-text;
+  &:hover {
+    color: $tertiary-text;
+  }
 }
