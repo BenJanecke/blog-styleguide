@@ -30,8 +30,11 @@
       <h1>A little bit about me.</h1>
     </header>
     <section>
-     <div>
-        <p>This is me -></p> <img class="avatar" src="/me.jpg" />
+     <div class="landing-page-me">
+        <p>This is me -></p>
+        <div class="avatar">
+          <img src="http://placehold.it/140x140" />
+        </div>
      </div>
      </br>
      <h3>I do things</h3>
@@ -43,6 +46,9 @@
          </li>
          <li>
            <p><a href="https://github.com/BenJanecke/sane-scaffold">Sane composable filesystem scaffolding</a></p>
+         </li>
+         <li>
+           <p><a href="https://github.com/BenJanecke/collider">Collider a simple sass styleguide generator</a></p>
          </li>
        </ul>
      </div>
@@ -66,5 +72,36 @@
        </ul>
       </div>
     </section>
+  </article>
+  <article class="landing-page">
+    <header>
+      <h1>Latest Post</h1>
+    </header>
+    <article class="article">
+      <header class="article-header">
+        <h1>{{header}}</h1>
+        <h4>{{date}}</h4>
+      </header>
+      <section class="article-content">
+        <p>
+          {{paragraph}}
+        </p>
+
+        <blockquote class="article-blockquote">
+          {{blockquote}}
+        </blockquote>
+
+        <p>
+          {{paragraph}}
+        </p>
+
+        <blockquote class="article-blockquote">
+          {{blockquote}}
+          <footer>
+            - {{cite}}
+          </footer>
+        </blockquote>
+      </section>
+    </article>
   </article>
 </div>

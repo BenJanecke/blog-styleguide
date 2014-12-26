@@ -11,3 +11,13 @@
     width: 50%;
   }
 }
+
+.landing-page-me {
+  width: 100%;
+  float: left;
+  display: table;
+  p {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
